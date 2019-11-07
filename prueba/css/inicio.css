@@ -1,0 +1,78 @@
+body, html {
+    margin: 0px;
+    height: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(38, 37, 44, 0.192);;
+    color: white;;
+}
+.options{
+    margin: 0%;
+    width: 300px;
+    height: 100%;
+    background-color: rgb(38, 37, 44);
+    position: fixed;
+    padding: 20px;
+}
+input[type=submit]{
+    width: 200px;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(38, 37, 44);
+    margin-top: 5%;
+    font-size: 20px;
+    color: white;
+    text-align: justify;
+    cursor: pointer;
+}
+input[type=text], input[type=number], input[type=email], input[type=password]{
+    width: 200px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    padding: 5px 15px;
+    color: white;
+}
+.insert{
+    padding: 40px 0px 0px 400px;
+}
+.edit {
+    padding: 0.1px 0px 0px 400px;
+}
+.see_data {
+    padding: 40px 0px 0px 330px;
+}
+td{
+    padding: 10px 15px;
+}
+.title{
+    width: 150px;
+    text-align: center;
+    background-color: rgb(38, 37, 44);
+}
+#identification {
+    text-align: right;
+}
+.data {
+    background-color: rgba(38, 37, 44, 0.192);
+    text-align: center;
+}
+#title_left{
+    border-top-left-radius: 15px;
+}
+#title_right{
+    border-top-right-radius: 15px;
+}
+.retun{
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    text-decoration:none;
+}
+a{
+    color: rgb(0, 0, 250);
+    cursor: pointer;
+    text-decoration:none;
+}
+#save{
+    background-color: rgb(21, 10, 172);
+}
