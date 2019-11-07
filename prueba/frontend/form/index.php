@@ -83,11 +83,6 @@
                                             <a href="../../controllers/delete/delete.php?id=<?php echo $row['id_user']; ?>"><img src="../../img/ii.jpg" alt="" width="120">Eliminar</a>
                                         <?php
                                     }
-                                    else {
-                                        ?>
-                                            <a href="../../controllers/select/see_data.php"><img src="../../img/ii.jpg" alt="" width="120">Ver</a>
-                                        <?php
-                                    }
                                     echo "</td></tr>";
                                 }
                             ?>
